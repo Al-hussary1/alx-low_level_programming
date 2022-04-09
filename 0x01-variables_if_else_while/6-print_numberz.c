@@ -11,8 +11,8 @@ int main(void)
 
 	for (digit = 48; digit <= 57; digit++)
 	{
-		putchar(digit);
+		putchar (digit);
 	}
-	putchar("\n");
+	putchar ('\n');
 return (0);
 }
