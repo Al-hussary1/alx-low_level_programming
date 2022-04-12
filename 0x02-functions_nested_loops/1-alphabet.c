@@ -3,7 +3,7 @@
 /**
  * main - Entry Point
  *
- * Return: Always 0 (Success)
+ *  prints the alphabet, in lowercase, followed by a new line
  */
 void print_alphabet(void)
 {
