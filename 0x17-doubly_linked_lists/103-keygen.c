@@ -86,4 +86,3 @@ password[6] = '\0';
 printf("%s", password);
 return (0);
 }
->>>>>>> e676725a266e38c0643d4849a6ae23a3bca0067d
