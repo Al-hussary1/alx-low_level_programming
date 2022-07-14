@@ -1,32 +1,26 @@
 #include "dynamic_lib.h"
-#include <stdio.h>
-/**
- * add -prints add two numbers
- *@i: print int i
- *@k: print int k
- * Return: Always 0.
- */
-int add(int i, int k)
+
+int add(int a, int b)
 {
-	return (i + k);
+	return (a + b);
 }
 
-int sub(int i, int k)
+int sub(int a, int b)
 {
-	return ( i - k);
+	return ( a - b);
 }
 
-int mul(int i, int k)
+int mul(int a, int b)
 {
-	return (i * k);
+	return (a * b);
 }
 
-int div(int i, int k)
+int div(int a, int b)
 {
-	return (i / k);
+	return (a / b);
 }
 
-int mod(int i, int k)
+int mod(int a, int b)
 {
-	return (i % k);
+	return (a % b);
 }
